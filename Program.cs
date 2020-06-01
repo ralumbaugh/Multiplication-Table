@@ -21,7 +21,7 @@ namespace MultiplicationTable
                 string line = "[";
                 for(int j=0; j<10; j++)
                 {
-                    line = $"{line} {Table[i,j]}, ";
+                    line = $"{line}{Table[i,j]},\t";
                 }
                 line = line + "]";
                 Console.WriteLine(line);
